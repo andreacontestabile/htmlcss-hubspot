@@ -10,9 +10,9 @@
 }
 
 .clearfix::after {
-  content: none;
+  content: "";
   display: table;
-
+  clear: both;
 }
 
 body {
@@ -27,6 +27,7 @@ body {
   background-color: transparent;
   border: none;
   padding: 11px;
+  outline: none;
   cursor: pointer;
 }
 
@@ -48,6 +49,11 @@ body {
 
 .small-text {
   font-size: 13px;
+}
+
+.box {
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .top-navbar {
@@ -179,11 +185,12 @@ body {
 .services {
   padding: 40px 0;
   color: #33475B;
+  background-color: #F4F9FD;
 }
 
 .services-intro {
   width: 45%;
-  margin: 0 auto;
+  margin: 0 auto 40px;
   text-align: center;
 }
 
@@ -199,5 +206,71 @@ body {
   font-size: 35px;
   text-transform: capitalize;
   margin-bottom: 25px;
+}
 
+.crm {
+  padding: 70px 0;
+  background-color: #fff;
+}
+
+.crm-left {
+  width: 32%;
+  float: left;
+  text-align: center;
+}
+
+.crm-left img {
+  width: 35%;
+  margin-bottom: 20px;
+}
+
+.crm-left .btn {
+  display: block;
+  margin: 0 auto;
+}
+
+.crm-right {
+  width: 68%;
+  float:left;
+}
+
+.crm-right .crm-title {
+  margin-bottom: 25px;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.crm-right .crm-description {
+  max-width: 80%;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.crm-right .crm-feature {
+  display: inline-block;
+  margin: 0 45px 25px 0;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.crm-line {
+  height: 20px;
+  width: 55%;
+  display: inline-block;
+  margin-bottom: 5px;
+  border-bottom: 2px solid #899397;
+}
+
+.crm-feature-list {
+  list-style: none;
+}
+
+.crm-feature-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.crm-feature-list .fa-check-circle {
+  color: #FE775A;
+  margin-right: 15px;
 }
