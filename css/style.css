@@ -9,6 +9,12 @@
   margin: 0 auto;
 }
 
+.clearfix::after {
+  content: none;
+  display: table;
+
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -42,6 +48,9 @@ body {
   color: #33475B;
   border-bottom: 1px solid #32495B;
   line-height: 80px;
+}
+
+.top-navbar ul {
   list-style: none;
 }
 
@@ -60,6 +69,9 @@ body {
 
 .top-navbar li {
   display: inline-block;
+}
+
+.top-navbar li:not(:last-child) {
   margin-right: 20px;
 }
 
@@ -81,4 +93,40 @@ body {
 
 .top-navbar-right .fa-search {
   color: #1AADC4;
+}
+
+.main-navbar {
+  height: 80px;
+  line-height: 80px;
+}
+
+.main-navbar ul {
+  list-style: none;
+}
+
+.main-navbar li {
+  display: inline-block;
+}
+
+.logo-img {
+  vertical-align: middle;
+}
+
+.main-navbar-menu {
+  float: right;
+}
+
+.main-navbar-menu a {
+  color: #33475B;
+  text-decoration: none;
+}
+
+.main-navbar-menu .fa-angle-down {
+  margin-left: 15px;
+  font-size: 22px;
+  vertical-align: middle;
+}
+
+.main-navbar-menu-item:not(:first-child) {
+  margin-left: 20px;
 }
