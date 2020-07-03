@@ -175,3 +175,29 @@ body {
   border-color: #33475B;
   border-style: solid;
 }
+
+.services {
+  padding: 40px 0;
+  color: #33475B;
+}
+
+.services-intro {
+  width: 45%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.services-img {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 10px;
+  background-color: midnightblue;
+}
+
+.services-intro-title {
+  font-size: 35px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+
+}
