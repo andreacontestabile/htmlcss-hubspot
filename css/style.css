@@ -3,3 +3,82 @@
  margin: 0;
  padding: 0;
  }
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.btn {
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  padding: 11px;
+  cursor: pointer;
+}
+
+.btn-white {
+  background-color: #FAFCFE;
+  color: #FE775A;
+  border: 1px solid #FE775A;
+}
+
+.btn-orange {
+  font-weight: 500;
+  color: #fff;
+  background-color: #FE775A;
+}
+
+.top-navbar {
+  height: 80px;
+  background-color: #F4F9FD;
+  color: #33475B;
+  border-bottom: 1px solid #32495B;
+  line-height: 80px;
+  list-style: none;
+}
+
+.top-navbar-left {
+  float: left;
+}
+.top-navbar-right {
+  float: right;
+}
+
+.top-navbar a {
+  text-decoration: none;
+  color: #33475B;
+  text-transform: capitalize;
+}
+
+.top-navbar li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.top-navbar-left li:first-child {
+  padding-right: 22px;
+  border-right: 2px solid #899397;
+  line-height: 20px;
+}
+
+.top-navbar .fa-globe-europe {
+  margin-right: 5px;
+}
+
+.top-navbar .fa-angle-down {
+  font-size: 22px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.top-navbar-right .fa-search {
+  color: #1AADC4;
+}
