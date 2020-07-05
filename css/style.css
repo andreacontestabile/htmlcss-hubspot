@@ -54,6 +54,7 @@ body {
 .box {
   border-radius: 3px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
 }
 
 .top-navbar {
@@ -195,11 +196,8 @@ body {
 }
 
 .services-img {
-  display: inline-block;
-  height: 200px;
-  width: 200px;
+  width: 250px;
   margin-bottom: 10px;
-  background-color: midnightblue;
 }
 
 .services-intro-title {
@@ -208,9 +206,13 @@ body {
   margin-bottom: 25px;
 }
 
+.services-intro-text {
+  line-height: 1.6;
+}
+
 .crm {
   padding: 70px 0;
-  background-color: #fff;
+  margin-bottom: 50px;
 }
 
 .crm-left {
@@ -234,26 +236,36 @@ body {
   float:left;
 }
 
-.crm-right .crm-title {
-  margin-bottom: 25px;
+.box-title {
   font-size: 25px;
   font-weight: 900;
+  text-transform: capitalize;
 }
 
-.crm-right .crm-description {
-  max-width: 80%;
-  margin-bottom: 20px;
+.crm-right .box-title {
+  margin-bottom: 25px;
+}
+
+.box-description {
   line-height: 1.8;
 }
 
-.crm-right .crm-feature {
-  display: inline-block;
-  margin: 0 45px 25px 0;
+.crm-right .box-description {
+  max-width: 80%;
+  margin-bottom: 20px;
+}
+
+.feature-title {
   text-transform: uppercase;
   font-weight: 900;
 }
 
-.crm-line {
+.crm-right .feature-title {
+  display: inline-block;
+  margin: 0 45px 25px 0;
+}
+
+.box-line {
   height: 20px;
   width: 55%;
   display: inline-block;
@@ -261,16 +273,55 @@ body {
   border-bottom: 2px solid #899397;
 }
 
-.crm-feature-list {
+.feature-list {
   list-style: none;
 }
 
-.crm-feature-item {
+.feature-item {
   display: inline-block;
   margin-right: 20px;
+  text-transform: capitalize;
 }
 
-.crm-feature-list .fa-check-circle {
+.feature-list .fa-check-circle {
   color: #FE775A;
   margin-right: 15px;
+}
+
+.hub-column {
+  width: 30%;
+  float: left;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.hub-column:nth-child(2) {
+  margin: 0 5%;
+}
+
+.hub-column img {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.hub-column .box-title {
+  margin-bottom: 25px
+}
+
+.hub-column .box-description {
+  margin-bottom: 60px;
+}
+
+.hub-column .box-line {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.hub-column .feature-title {
+  margin-bottom: 30px;
+}
+
+.hub-column .feature-list {
+  text-align: left;
+  margin-bottom: 50px;
 }
