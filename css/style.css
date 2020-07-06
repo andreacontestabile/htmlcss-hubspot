@@ -200,13 +200,13 @@ body {
   margin-bottom: 10px;
 }
 
-.services-intro-title {
+.intro-title {
   font-size: 35px;
   text-transform: capitalize;
   margin-bottom: 25px;
 }
 
-.services-intro-text {
+.intro-description {
   line-height: 1.6;
 }
 
@@ -322,6 +322,52 @@ body {
 }
 
 .hub-column .feature-list {
+  display: block;
   text-align: left;
   margin-bottom: 50px;
+}
+
+.statistics {
+  padding: 40px 0 80px;
+  color: #fff;
+  text-align: center;
+  background: rgb(0,164,188);
+}
+
+.statistics .intro-description {
+  margin-bottom: 60px;
+}
+
+.statistics-table-item {
+  width: 25%;
+  float: left;
+  padding: 25px 0;
+}
+
+.statistics-table-item:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+
+.statistics-table-item img, .statistics-table-item .table-big-number {
+  margin-bottom: 15px;
+}
+
+.statistics-table-item img {
+  height: 33px;
+}
+
+.table-big-number {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.statistics-table-item .table-big-number span {
+  margin-left: 5px;
+  font-size: 25px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.table-row:first-child {
+  border-bottom: 1px solid #fff;
 }
