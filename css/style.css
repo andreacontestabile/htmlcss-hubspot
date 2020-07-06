@@ -37,6 +37,12 @@ body {
   border: 1px solid #FE775A;
 }
 
+.btn-white-solid {
+  background-color: #DADEE0;
+  color: #32495B;
+  font-weight: 500;
+}
+
 .btn-orange {
   font-weight: 500;
   color: #fff;
@@ -441,4 +447,55 @@ body {
 
 .cta-right img {
   width: 55%;
+}
+
+footer {
+  padding: 30px 0 0;
+  color: #CBD6E2;
+  background-color: #32495B;
+  text-transform: capitalize;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  color: #CBD6E2;
+  text-decoration: none;
+}
+
+.footer-menu {
+  margin-bottom: 60px;
+}
+
+.footer-column {
+  width: 25%;
+  float: left;
+}
+
+.footer-column li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.footer-title {
+  color: #fff;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.social a:not(:last-child) {
+  margin-right: 20px;
+}
+
+.language {
+  text-align: center;
+}
+
+.language li {
+  display: inline-block;
+}
+
+.language li:not(:last-child) {
+  margin-right: 25px;
 }
