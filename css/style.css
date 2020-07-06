@@ -378,11 +378,12 @@ body {
 
 .customers {
   color: #33475B;
-  padding: 50px;
+  padding: 50px 0 0;
 }
 
 .clients {
   padding: 0 80px;
+  margin-bottom: 50px;
 }
 
 .clients-left {
@@ -396,7 +397,7 @@ body {
 
 .clients-right {
   float: right;
-  width: 61%
+  width: 60%
 }
 
 .clients .big-number {
@@ -405,7 +406,39 @@ body {
 }
 
 .clients img {
-  width: 155px;
+  width: 153px;
   padding: 10px;
   vertical-align: middle;
+}
+
+.cta {
+  padding: 40px 0;
+}
+
+.cta-left {
+  float: left;
+  width: 50%;
+  padding: 30px 84px 0 0;
+}
+
+.cta-left .intro-title {
+  margin-bottom: 45px;
+}
+
+.cta-left .intro-description {
+  margin-bottom: 40px;
+}
+
+.cta-left button {
+  margin-bottom: 40px;
+}
+
+.cta-right {
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+
+.cta-right img {
+  width: 55%;
 }
