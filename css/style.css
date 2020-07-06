@@ -61,6 +61,12 @@ body {
   padding: 20px 40px;
 }
 
+.btn-round {
+  background-color: #425B76;
+  border-radius: 50%;
+  padding: 15px;
+}
+
 .small-text {
   font-size: 13px;
 }
@@ -573,4 +579,58 @@ footer a:hover {
 
 .legal li:not(:last-child) {
   margin-right: 20px;
+}
+
+/* Chat Support */
+
+.chat-support {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+.chat-support .btn-round {
+  position: relative;
+  bottom: 0;
+  left: 100%;
+  transform: translateX(-100%);
+  line-height: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.chat-popup {
+  margin-bottom: 20px;
+  padding: 40px 22px 20px;
+  max-width: 250px;
+  min-height: 120px;
+  color: #33475B;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8;
+  border-radius: 5px;
+  text-transform: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.chat-popup #bot-avatar {
+  width: 50px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.chat-popup .fa-times {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #425B76;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.chat-popup p img {
+  width: 18px;
+  margin-right: 5px;
 }
