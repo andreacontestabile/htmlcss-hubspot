@@ -33,12 +33,18 @@ body {
   padding: 11px;
   outline: none;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .btn-white {
   background-color: #FAFCFE;
   color: #FE775A;
   border: 1px solid #FE775A;
+}
+
+.btn-white:hover {
+  background-color: #FFF1EE;
+  transition: background-color 0.3s;
 }
 
 .btn-white-solid {
@@ -49,12 +55,17 @@ body {
 
 .btn-white-solid:hover {
   background-color: #fff;
+  transition: background-color 0.3s;
 }
 
 .btn-orange {
   font-weight: 500;
   color: #fff;
   background-color: #FE775A;
+}
+
+.btn-orange:hover {
+  background-color: #FFBCAC;
 }
 
 .btn-big {
@@ -80,6 +91,10 @@ body {
 /* Top Navigation */
 
 .top-navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
   background-color: #F4F9FD;
   color: #33475B;
   border-bottom: 1px solid #32495B;
@@ -136,6 +151,7 @@ body {
 /* Main Navigation */
 
 .main-navbar {
+  margin-top: 75px;
   height: 80px;
   line-height: 80px;
 }
@@ -596,6 +612,7 @@ footer a:hover {
   transform: translateX(-100%);
   line-height: 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .chat-popup {
@@ -626,7 +643,7 @@ footer a:hover {
   top: 5px;
   right: 5px;
   color: #425B76;
-  font-size: 25px;
+  font-size: 20px;
   cursor: pointer;
 }
 
